@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 300vh;
+}
+
+.container{
+    height: 50vh;
+    background-color: aquamarine;
+}
+
+.container2{
+    width: 200vw;
+    height: 50vh;
+    background-color: aqua;
+}
+
+.sticky{
+    width: 140px;
+    height: 140px;
+    background-color: cadetblue;
+    position: sticky;
+
+    top: 100px;
+}
+
+.sticky2{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: khaki;
+    position: sticky;
+
+    top: 100px;
+    left: 50px;
+}

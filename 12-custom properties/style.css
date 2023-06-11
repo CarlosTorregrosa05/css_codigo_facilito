@@ -1,0 +1,34 @@
+:root{
+	/*todas las custom properties aquí*/
+    /* si la cambio, todos los elementos se modifican al tiempo cuando se usan */
+	--bordes-colores: 3px solid black; /*pueden tener cualquier valor aceptado por css*/
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.title{
+    color: rosybrown;
+    /* siempre lleva 'var(custom propertie)' */
+    border: var(--bordes-colores);
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: var(--bordes-colores);
+}
+
+.paragraph{
+    color: indianred;
+    border: var(--bordes-colores);
+}
+

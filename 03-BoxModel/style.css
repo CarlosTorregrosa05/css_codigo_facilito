@@ -1,0 +1,44 @@
+.caja{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+
+    /* padding: top right bottom left; */
+    padding: 40px 30px;
+
+    /* border-color: top right bottom left; */
+    border-color:green tomato black red;
+    
+    /* border-style: top right bottom left; */
+    border-style: ridge groove dotted double;
+    /* doted, dashed, solid, double, groove, ridge */
+
+    
+    /* border-width: top right bottom left; */
+    border-width: 10px;
+
+    /*SHORTHAND border: width color style*/
+    border: 20px blue solid;
+
+}
+
+.caja1{
+    /* margin: 80px; */
+    /*SHORTHAND margin: top right bottom left */
+    margin-top:20px;
+    margin-right:40px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+
+.main{
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footer{
+    color: white;
+    background-color: slateblue;
+    margin-top: 50px;
+}

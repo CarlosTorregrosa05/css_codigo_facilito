@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 90%;
+    height: 600px;
+    outline: 2px solid black;
+    margin: 80px auto;
+
+    display: grid;
+
+    /* crear columnas y filas de igual tamaño en la grid */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 10px;
+
+    /* grid-template-areas: 
+    "nav nav nav nav nav"
+    "main main main side side"
+    "main main main side side"
+    "main main main side side"
+    "footer footer footer footer ."; */
+    /* el punto indica que es vacia */
+}
+
+.item{
+    /* width: 100px; */
+    /* height: 100px; */
+    color: #fff;
+    font-size: 2em;
+
+    /* centrar el contenido en horizontal con justify y vetical con align usando flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1{
+    background-color: slateblue;
+    /* se posiciona en nav */
+    /* grid-area: nav; */
+}
+.item2{
+    background-color: deeppink;
+    /* grid-area: main; */
+}
+.item3{
+    background-color: darkseagreen;
+    /* grid-area: footer; */
+}
+.item4{
+    background-color: goldenrod;
+    /* grid-area: side; */
+}
+.item5{
+    background-color: midnightblue;
+}
+.item6{
+    background-color: crimson;
+}

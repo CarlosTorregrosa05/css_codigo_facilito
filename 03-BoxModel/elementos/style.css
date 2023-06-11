@@ -1,0 +1,50 @@
+
+/* siempre colocarlo al inicio */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.element{
+    box-sizing: content-box;
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+    border: 30px solid steelblue;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+body{
+    /* heredar el font-size a sus hijos (elementos en body) */
+    font-size: 25px;
+}
+
+.block{
+    background-color: teal;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.inline{
+    background-color: tomato;
+    color: white;
+}
+
+.button{
+    /* elemento hibrido */
+    display: inline-block; 
+    background-color: aqua;
+    color: black;
+
+    /* quita el subrayado */
+    text-decoration: none;
+
+    font-family: Arial;
+    padding: 15px 40px;
+
+    /* redondear las esquinas */
+    border-radius: 30px;
+
+    margin: 50px;
+}

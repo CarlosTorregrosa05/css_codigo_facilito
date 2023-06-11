@@ -1,0 +1,52 @@
+*{
+    /* elimina los margenes del navegador */
+    margin: 0;
+    /* define las cajas como border box, es decir, el width
+    y el height definidos son el total y se recalculan
+    si se tiene padding y border adicionales */
+    box-sizing: border-box;
+}
+
+.title{
+    margin: 70px;
+    /* color de texto */
+    color: darkslategray;
+    /* color del fondo del elemento */
+    background-color: salmon;
+
+}
+
+.background{
+    /* width: 300px; */
+    height: 500px;
+    /* margin: 50px; */
+    background-color: salmon;
+
+    /* background-image: url('./images/sirenita.png');
+    background-size: 200px;
+    background-repeat: no-repeat; */
+
+    /* top, left, bottom, right, center */
+    /* si se usa solo una, sea en X o Y, se sobreentiende  */
+    /* que la otra es *center* */
+    /* background-position: center; */
+
+    background-image: linear-gradient(rgba(255, 0, 0, 0.507), rgba(33, 114, 206, 0.452)), url('./images/sirenita.png');
+
+    background-size: cover;
+    background-position: center;
+
+    /* se agrega padding para que el *h1* pueda tener
+    margin-top */
+    padding: 0.1px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+
+    /* para poder aplicar este margin-top se debe agregar
+    border o padding al padre (background) */
+    margin-top: 250px;
+}

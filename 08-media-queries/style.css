@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.element{
+    width: 50%;
+    height: 200px;
+    margin: 80px auto;
+    background-color: blueviolet;
+}
+
+/* media querie siempre al final*/
+
+/* ejemplo 1:*/
+/* primero el de mayor tamaño con max-width */
+/* @media(max-width: 800px){
+    body{
+        background-color: red;
+    }
+    .element{
+        background-color: black;
+    }
+}
+@media(max-width: 500px){
+    body{
+        background-color: aqua;
+    }
+    .element{
+        background-color: blue;
+    }
+} */
+
+/* ejemplo 2: */
+/* primero el de menor tamaño con min-width */
+@media(min-width: 300px){
+    body{
+        background-color: #000;
+    }
+    .element{
+        background-color: crimson;
+    }
+}
+
+@media(min-width: 600px){
+    body{
+        background-color: violet;
+    }
+    .element{
+        background-color: white;
+    }
+}

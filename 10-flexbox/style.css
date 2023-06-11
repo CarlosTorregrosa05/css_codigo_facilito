@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.flex{
+    width: 80%;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    border: 3px solid black;
+
+    /* flexbox modulo de css sitio web flexible
+    y adaptable a dispositivos moviles */
+    display: flex;
+
+    flex-direction: row;
+    /* row | row-reverse | column | column-reverse */
+
+    /* suma de todos los elementos supera el width del contenedor estos se achican
+    porque el flex-wrap por defecto es nowrap, pero si se pone wrap, se unifican los elementos
+    cuya suma sea menor o igual al width del contenedor y el resto se crea en el cross-axis */
+    /* flex-wrap: wrap; desborda desde abajo hacia arriba */
+
+
+}
+
+.element{
+    min-width: 120px;
+    min-height: 500px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2rem;
+    display: flex;
+}
+
+.element1{
+    background-color: saddlebrown;
+}
+.element2{
+    background-color: lightcoral;
+}
+.element3{
+    background-color: hotpink;
+}
+.element4{
+    width: 300px;
+    /* height: 80%; */
+    background-color: rgb(212, 151, 107);
+    /* display: flex; */
+    /* margin: 33% auto; */
+    /* margin-left: -20px; */
+}
+.paragr{
+    background-color: burlywood;
+    width: 100px
+}
+
+@media(max-width: 500px){
+    .element{
+        flex-direction: column;
+    }
+    .flex{
+        flex-direction: column;
+    }
+}

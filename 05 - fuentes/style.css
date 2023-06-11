@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.card{
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: cadetblue;
+
+    /* se hereda a sus hijos */
+    color: black;
+    padding: 40px 20px;
+}
+
+.image{
+    width: 300px;
+    display: block;
+
+    /* primero definir un width y un display block */
+    margin: 0 auto;
+}
+
+h2{
+    /* espaciado entre letras de un texto */
+    letter-spacing: 10px;
+    /* espaciado entre palabras */
+    word-spacing: 20px;
+
+    border: 2px solid white;
+
+    /* detecta donde va a haber desbordamiento de la palabra
+    en el contenedor y la corta para hacer salto de línea */
+    overflow-wrap: break-word;
+
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+.paragraph{
+    text-transform: lowercase;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.paragraph--first{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 20px;
+}

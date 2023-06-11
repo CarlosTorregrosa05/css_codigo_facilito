@@ -1,0 +1,41 @@
+ /*******************************************************/
+/* selector universal
+
+*{
+    color: green;
+} */
+
+/* selector de tipo
+p{
+    color:orange;
+} */
+ /*******************************************************/
+
+ /*******************************************************/
+/* Selectores de clase
+.titulo{
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+.negrita{
+    font-weight: bold;
+} */
+
+ /*Selector de id
+
+ #titulo{
+    color: blue;
+ }*/
+ /*******************************************************/
+
+ /*******************************************************/
+/* 
+ combinador de descendientes
+.abuelo .titulo{
+    font-size: 50px;
+}
+.abuelo>.titulo{
+    font-size: 30px;
+} */
+ /*******************************************************/
